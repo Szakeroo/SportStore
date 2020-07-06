@@ -15,7 +15,7 @@ export class Shop extends Component{
                     <CategoryNavigation baseUrl="/shop/products" categories={this.props.categories}/>
                 </div>
                 <div className={"col-9 p-2"}>
-                    <ProductList product={this.props.products} />
+                    <ProductList products={this.props.products} />
                 </div>
             </div>
         </div>
