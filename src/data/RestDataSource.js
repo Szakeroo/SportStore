@@ -3,5 +3,5 @@
 //
 // export class RestDataSource {
 //     GetData = (dataType) =>
-//         this.SendRequest("get",RestUrls[da)
+//         this.SendRequest("get",RestUrls[dataTypes])
 // }
