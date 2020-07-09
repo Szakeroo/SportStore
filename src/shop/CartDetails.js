@@ -16,7 +16,7 @@ export class CartDetails extends Component {
                     <th>Ilość</th>
                     <th>Produkt</th>
                     <th className="text-right">Cena</th>
-                    <th className="text-right">Razem</th>
+                    <th className="text-right">Wartość</th>
                     <th/>
                 </tr>
                 </thead>
@@ -29,10 +29,10 @@ export class CartDetails extends Component {
             </table>
             <div className="text-center">
                 <Link className="btn btn-primary m-1" to="/shop">
-                    Dodaj do koszyka
+                    Kontynuj Zakupy
                 </Link>
                 <Link className={ this.getLinkClasses() } to="/shop/checkout">
-                    Wroc do sklepu
+                    Do Kasy
                 </Link>
             </div>
         </div>

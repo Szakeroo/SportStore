@@ -33,7 +33,7 @@ export class CartDetailsRows extends Component {
                     </tr>
                 )}
                 <tr>
-                    <th colSpan="3" className="text-right">Razem:</th>
+                    <th colSpan="3" className="text-right">Razem :</th>
                     <th colSpan="2">{ this.props.cartPrice.toFixed(2) } Zł</th>
                 </tr>
             </React.Fragment>
