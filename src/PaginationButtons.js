@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 export class PaginationButtons extends Component{
     getPageNumbers = () =>{
         if(this.props.pageCount < 4){
-            return [...Array(this.props.pageCount + 1).keys().slice(1)];
+            return [...Array(this.props.pageCount + 1).keys()].slice(1);
         }else if(this.props.currentPage <= 4){
             return [1, 2, 3, 4, 5];
         }else if (this.props.currentPage > this.props.pageCount -4){
