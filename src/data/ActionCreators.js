@@ -14,3 +14,9 @@ export const loadData = (dataType,params) =>({
             params
         }))
 });
+
+export const setPageSize = (newSize) =>
+    ({ type: ActionTypes.DATA_SET_PAGESIZE, payload: newSize});
+
+export const setSortPropert = (newProp) =>
+    ({ type: ActionTypes.DATA_SET_SORT_PROPERTY, payload: newProp})
